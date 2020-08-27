@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JoinGeng</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="video-container">
+      <video
+        autoplay
+        muted
+        loop
+        id="myVideo"
+        poster="asset/Video Alternative.png"
+      >
+        <source src="asset/Video Landing Page.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="container">
+      <div class="wrapper" id="myHeader">
+        <a href="index.html" class="desktop-logo">
+          <img src="asset/Genglogo.png" alt="Logo" />
+        </a>
+
+        <!--Menu Links-->
+        <ul class="menu">
+          <li><a id="home" href="index.html">Home</a></li>
+          <li><a id="about" href="developer.html">Developers</a></li>
+          <li class="button-like">
+            <a
+              id="access"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2y9OhsT-r29iG7ItVM4cvfq0v8buPX52wDaDs4kFgTAf7g/viewform"
+              >Get early access</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="caption">
+        <h1 class="main-caption">
+          <a href="index.html" class="mobile-logo">
+            <img src="asset/Genglogo.png" alt="Logo" />
+          </a>
+          <div>
+            <ul class="flip4">
+              <li>Cards.</li>
+              <li>2048.</li>
+              <li>Ludo.</li>
+              <li>Games.</li>
+            </ul>
+          </div>
+          <span>Friends.</span
+          ><!-- <br> -->
+          <span>Video Chat.</span>
+        </h1>
+        <div class="sub-caption">
+          <p>We're bringing game night back!</p>
+        </div>
+        <div class="cta button-like">
+          <a
+            id="cta-button"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2y9OhsT-r29iG7ItVM4cvfq0v8buPX52wDaDs4kFgTAf7g/viewform"
+            >Get early access</a
+          >
+        </div>
+      </div>
+
+      <div class="bottom-bar">
+        <div class="bottom-bar--left">
+          <p id="copyright">Copyright 2020 Geng<span style="color: #787878; padding-left: 10px;">by n-Labs</span></p>
+          <span class="darken">
+            <span id="privacy"><a href="#">Privacy</a></span> <span id="courtesy">Made with ❤ from ibadan</span>
+          </span>
+        </div>
+        <div class="bottom-bar--right">
+          <span class="closer">
+            <!-- <i data-feather="instagram"></i>
+            <i data-feather="twitter"></i>
+            <i data-feather="facebook"></i> -->
+            
+            <a href="/">
+							<img src="asset/instagram social.svg" alt="Instagram">
+						</a></li>
+						<a href="/">
+							<img src="asset/Twitter social.svg" alt="Twitter">
+						</a></li>
+          </span>
+        </div>
+      </div>
+      <div class="bottom-bar-small">
+        <ul>
+					<li><a href="#">Privacy Policy</a></li>
+					<li>|</li>
+					<li><a href="developers.html">Developers SDK</a></li>
+        </ul>
+        <div><a href="#">Made with  <span style="color: #FF0000">❤</span> in Ibadan</a></div>
+      </div>
+    </div>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
