@@ -559,6 +559,12 @@ p{
   .mobile-logo {
     display: flex;
     margin-bottom: 20px;
+    /* margin: 20px auto; */
+  }
+
+  .mobile-logo-2{
+    display: flex;
+    margin-bottom: 20px;
     margin: 20px auto;
   }
   .desktop-logo {
