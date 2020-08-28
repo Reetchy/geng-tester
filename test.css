@@ -28,11 +28,16 @@ body {
     background-color: black;
     color: #fff;
     font-family: "Circular Two";
+    padding-top: 50px;
   }
 
 .header {
     text-align: center;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
 }
 
 .main-content {
@@ -75,14 +80,36 @@ article p{
     font-family: "Circular Two";
     border: 1px solid #4784f4;
     border-radius: 56.5px;
-    text-decoration: none !important;
+    text-decoration: none;
     transition: all 100ms linear;
 }
 
-article video{
-    width: 330px;
+.video-item {
+    margin: 0 auto;
 }
 
+article video{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+
+.mobile-section {
+    text-align: center;
+    line-height: 2;
+    padding: 15px 10px;
+}
+
+.small-footer li {
+    list-style: none;
+    display: inline-block;
+}
+
+.mobile-section a {
+    text-decoration: none;
+    color: #fff;
+}
 .main-footer {
     display: none;
 }
