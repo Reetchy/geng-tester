@@ -425,6 +425,9 @@ p{
   padding: 0;
 }
 
+.mobile-logo-2 {
+  display: none;
+}
 /* .closer a{
   margin-left: 160px;
 } */
