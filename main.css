@@ -484,6 +484,10 @@ p{
     margin: 0 auto;
     margin-top: 50px;
   }
+
+  .scroll-container #developers{
+    top: unset;
+  }
   
   video {
     max-width: 100%;
