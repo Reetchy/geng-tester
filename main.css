@@ -480,6 +480,7 @@ p{
   }
 
   .scroll-container{
+    width: unset;
     margin: 0 auto;
     margin-top: 50px;
   }
