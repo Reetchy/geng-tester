@@ -54,7 +54,7 @@ article h3{
     margin-bottom: 20px;
 }
 
-article h1{
+article h2{
     font-size: 28px;
     font-family: "Circular Three";
     margin-bottom: 32px;
@@ -77,6 +77,10 @@ article p{
     border-radius: 56.5px;
     text-decoration: none !important;
     transition: all 100ms linear;
+}
+
+article video{
+    width: 330px;
 }
 
 .main-footer {
