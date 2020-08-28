@@ -42,6 +42,21 @@ body {
   top: 0;
   left: 0;
 }
+
+.container-2{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Circular Two";
+  width: 100%;
+  background-color: rgba(0, 0, 0,);
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
 .caption {
   color: white;
 }
@@ -78,7 +93,7 @@ body {
 
 #developers {
   right: 10vw;
-  top: 15vh;
+  top: 30vh;
 }
 
 .developer-container {
@@ -86,11 +101,14 @@ body {
   color: white;
   position: relative;
   min-height: 40vh;
-  z-index: 100000;
+  /* z-index: 100000; */
   height: auto;
   min-width: 100%;
   width: auto;
-  margin-top: 15vh;
+  margin-top: 4vh;
+  margin-bottom: 12vh;
+  padding-bottom: 22px;
+  overflow-y: auto;
 }
 
 .text-container {
@@ -99,31 +117,53 @@ body {
   margin-left: 80px;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: 100px;
 }
 
 .developer-text--mid {
   text-transform: uppercase;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .developer-text--large {
-  font-size: 45px;
-  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: "Circular Three";
+  margin-bottom: 36px;
 }
 
 .developer-text--small {
-  margin-bottom: 30px;
+  margin-bottom: 56px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .video-container video {
   position: absolute;
   top: 20vh;
-  border-radius: 30px;
+  border-radius: 20px;
+  width: 350px;
+}
+
+.scroll-container{
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.scroll-container #developers{
+  top: 50px;
+}
+
+.scroll-container video{
+  position: absolute;
+  top: 20vh;
+  border-radius: 20px;
+  width: 350px;
 }
 
 .button-like {
-  padding: 16px 48px;
+  padding: 16px 28px;
   background-color: #4784f4;
   display: flex;
   place-items: center;
@@ -300,14 +340,14 @@ p{
 }
 
 .bottom-bar--right {
-  width: 25%;
+  /* width: 25%; */
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   color: white;
   font-family: "Circular Two";
-  margin-right: 20px;
+  margin-right: 80px;
 }
 
 .bottom-bar-small{
@@ -341,15 +381,15 @@ p{
 
 .closer {
   color: grey;
-  min-width: 100px;
+  /* min-width: 100px; */
   display: flex;
   justify-content: space-evenly;
-  padding: 0 100px;
+  padding: 0;
 }
 
-.closer a{
-  padding-right: 36px;
-}
+/* .closer a{
+  margin-left: 160px;
+} */
 
 @media only screen and (max-width: 768px) {
   .menu {
