@@ -22,7 +22,24 @@ src: url("fonts/CircularStd-Black.otf");
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+scrollbar-width: thin;
+scrollbar-color: blue orange;
 }
+
+*::-webkit-scrollbar {
+    width: 4px;
+    background-color: none;
+  }
+
+*::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #2e2e2e;
+    opacity: 20%;
+  }
+
+/* *::-webkit-scrollbar-track{
+    background: orange;
+} */
 
 body {
     background-color: black;
@@ -38,6 +55,8 @@ body {
     top: 0;
     width: 100%;
     background-color: #000;
+    box-shadow: 0px 10px 80px black ;
+
 }
 
 .main-content {
@@ -57,12 +76,14 @@ article h3{
     font-size: 16px;
     font-family: "Circular Two";
     margin-bottom: 20px;
+    font-weight: normal;
 }
 
 article h2{
     font-size: 28px;
     font-family: "Circular Three";
     margin-bottom: 32px;
+    font-weight: normal;
 }
 
 article p{
@@ -104,6 +125,8 @@ article video {
 .small-footer li {
     list-style: none;
     display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .mobile-section a {
@@ -118,7 +141,7 @@ article video {
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #2e2e2e;
     background-color: #000;
 }
 
@@ -129,16 +152,18 @@ article video {
 .navs li {
     list-style: none;
     display: inline;
-    padding-right: 10px;
+    padding-right: 28px;
 }
 
 .navs a {
     text-decoration: none;
     color: #fff;
-    font-family: sans-serif;
+    font-family: "Circular Two";
     font-weight: medium;
-    font-size: 12px;
+    font-size: 16px;
 }
+
+
 
 
 @media only screen and (min-width: 768px) {
@@ -149,10 +174,53 @@ article video {
     .header {
         display: flex;
         justify-content: space-between;
+        padding-left: 76px;
+        padding-right: 76px;
+        padding-top: 30px;
+    }
+
+    .header-apply{
+        padding: 16px 28px;
+        background-color: #4784f4;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-family: "Circular Two";
+        border: 1px solid #4784f4;
+        border-radius: 56.5px;
+        text-decoration: none;
+        transition: all 100ms linear;
+    }
+
+    article h3{
+        font-size: 24px;
+        font-family: "Circular Two";
+        font-weight: normal;
+        margin-bottom: 36px;
+        padding-right: 50px;
+    }
+
+    article h2{
+        font-size: 40px;
+        font-family: "Circular Three";
+        font-weight: normal;
+        padding-right: 50px;
+    }
+
+    article p{
+        font-size: 24px;
+        font-family: "Circular Two";
+        font-weight: normal;
+        line-height: 30px;
+        padding-right: 100px;
+    }
+
+    article video{
+        min-width: 250px;
     }
 
     .navs {
         display: block;
+        padding-top: 10px;
     }
 
     .mobile-section {
@@ -161,13 +229,14 @@ article video {
 
     .main-content {
         flex-direction: row;
-        margin-top: 80px;
-        padding: 0 80px;
+        margin-top: 120px;
+        padding: 0 160px;
     }
 
     .text-item {
         width: 60%;
         text-align: left;
+        margin-top: 40px;
     }
 
     .video-item {
@@ -177,5 +246,28 @@ article video {
     .main-footer {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
+
+    .right-links p{
+        font-weight: normal;
+        font-size: 16px;
+        font-family: "Circular Two";
+    }
+
+    .right-links a{
+        text-decoration: none;
+        color: #787878;
+
+    }
+
+    .last{
+        list-style: none;
+    }
+
+    .last li{
+        display: inline;
+        padding-right: 20px;
+    }
+
 }
