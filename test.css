@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Circular Std";
+    src: url("fonts/CircularStd-Medium.otf");
+}
+  
+@font-face {
+font-family: "Circular Two";
+src: url("fonts/CircularStd-Book.otf");
+}
+
+@font-face {
+font-family: "Circular Three";
+src: url("fonts/CircularStd-Bold.otf");
+}
+
+@font-face {
+font-family: "Circular Four";
+src: url("fonts/CircularStd-Black.otf");
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: "Circular Two";
+  }
+
+.header {
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+  /* @media only screen and (max-width: 768px){
+      .header{
+          width: 100%;
+          background-color: blue;
+      }
+  } */
