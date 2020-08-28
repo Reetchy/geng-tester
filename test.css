@@ -32,16 +32,47 @@ body {
 
 .header {
     text-align: center;
+    padding: 20px;
 }
 
 .main-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 80px;
+    padding: 0 36px;
 }
 
+article.item.text-item{
+    text-align: center;
+}
 
+article h3{
+    font-size: 16px;
+    font-family: "Circular Two";
+    margin-bottom: 20px;
+}
 
+article h1{
+    font-size: 28px;
+    font-family: "Circular Three";
+    margin-bottom: 32px;
+}
+
+article p{
+    font-size: 20px;
+    font-family: "Circular Two";
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.main-footer {
+    display: none;
+}
+
+.mobile-section {
+
+}
 
 
   /* @media only screen and (max-width: 768px){
