@@ -45,6 +45,7 @@ body {
 
 article.item.text-item{
     text-align: center;
+    margin-bottom: 62px;
 }
 
 article h3{
@@ -64,6 +65,18 @@ article p{
     font-family: "Circular Two";
     margin-bottom: 30px;
     line-height: 25px;
+}
+
+.apply{
+    padding: 16px 28px;
+    background-color: #4784f4;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Circular Two";
+    border: 1px solid #4784f4;
+    border-radius: 56.5px;
+    text-decoration: none !important;
+    transition: all 100ms linear;
 }
 
 .main-footer {
